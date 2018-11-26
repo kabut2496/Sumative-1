@@ -21,7 +21,7 @@ public class CaluminatigUnit {
     
    
     
-         
+         //asking do you want to play rock paper scissors
         System.out.println("do you want to play Rock,Paper,scissors");
     
         ans=keyedInput.next();
@@ -31,9 +31,7 @@ public class CaluminatigUnit {
             System.out.println("Yaaaa!");
             break;
         case ("no"):case("No"):
-            System.out.println("ok");
-            System.out.println("I will leave you alone now");
-            System.out.println("By");
+            System.out.println("well actuly you have no choice");
             
             break;
         default: 
@@ -50,7 +48,9 @@ public class CaluminatigUnit {
         
     
     }
-    
+    /**
+     * this does the playing of rock paper scissors
+     */
    public static void Play(){
       Scanner keyedInput = new Scanner (System.in);
        
